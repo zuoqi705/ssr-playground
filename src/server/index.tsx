@@ -7,7 +7,7 @@ app.get('*', (req, res) => {
   res.send(`
     <html
       <body>
-        <div>hello-ssr</div>
+        <h1>hello-ssr</h1>
       </body>
     </html>
   `);
